@@ -230,9 +230,7 @@ body.lock{
 		&__cards-block {
          display: flex;
          gap: calc(10px + (40 - 10)*((100vw - 550px)/(1200 - 550)));
-         //max-height: 700px;
          margin-bottom: 20px;
-         //flex-wrap: wrap;
 		}
 
 
@@ -399,7 +397,7 @@ body.lock{
 
    &__text-title {
       font-family: 'Bebas Neue';
-      font-size: calc(26px + (26 - 32)*((100vw - 550px)/(1200 - 550)));
+      font-size: calc(26px + (32 - 26)*((100vw - 550px)/(1200 - 550)));
    }
 
    &__text-items {
@@ -574,7 +572,7 @@ body.lock{
    top: 0;left: 0;
    width: 100%;
    height: 95%;
-   object-fit: cover;
+   object-fit: contain;
 }
 .rider-name {
    color: #5e5e5e;
@@ -716,7 +714,7 @@ body.lock{
 .guided {
    width: 100vw;
    position: relative;
-   overflow: hidden;
+   //overflow-x: hidden;
    &__bg{
       width: 100%;
       height: 100%;
@@ -802,6 +800,7 @@ body.lock{
       object-fit: cover;
    }
    @media (max-width:550px){
+      overflow: hidden;
       &__colums{
          flex-direction: column;
       }

@@ -389,7 +389,7 @@ body.lock {
 }
 .wide__text-title {
   font-family: "Bebas Neue";
-  font-size: calc(26px + -6 * (100vw - 550px) / 650);
+  font-size: calc(26px + 6 * (100vw - 550px) / 650);
 }
 .wide__text-items {
   font-family: "Bebas Neue";
@@ -552,8 +552,8 @@ body.lock {
   left: 0;
   width: 100%;
   height: 95%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .rider-name {
@@ -690,7 +690,6 @@ body.lock {
 .guided {
   width: 100vw;
   position: relative;
-  overflow: hidden;
 }
 .guided__bg {
   width: 100%;
@@ -774,6 +773,9 @@ body.lock {
      object-fit: cover;
 }
 @media (max-width: 550px) {
+  .guided {
+    overflow: hidden;
+  }
   .guided__colums {
     flex-direction: column;
   }
