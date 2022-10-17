@@ -127,6 +127,9 @@ body.lock{
    &__menu{
       display: none;
    }
+   &__menu-item{
+      font-size: 20px;
+   }
    &__menu.active{
    display:flex;
    flex-direction: column;
