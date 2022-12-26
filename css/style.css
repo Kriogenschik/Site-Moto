@@ -20,9 +20,10 @@ body.lock {
   position: absolute;
   top: 0;
   left: 0;
+  width: 100%;
 }
 .header__container {
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -369,7 +370,7 @@ body.lock {
 }
 .wide {
   margin-top: calc(5px + 20 * (100vw - 550px) / 650);
-  width: 100vw;
+  width: 100%;
   position: relative;
   top: calc(35px + -25 * (100vw - 550px) / 650);
 }
@@ -575,7 +576,7 @@ body.lock {
   }
 }
 .world {
-  width: 100vw;
+  width: 100%;
   margin-top: 60px;
 }
 .world__textblock {
@@ -691,7 +692,7 @@ body.lock {
 }
 
 .guided {
-  width: 100vw;
+  width: 100%;
   position: relative;
 }
 .guided__bg {
@@ -871,7 +872,7 @@ body.lock {
   }
 }
 .blog {
-  width: 100vw;
+  width: 100%;
   margin-top: calc(25px + 35 * (100vw - 700px) / 500);
 }
 .blog__textblock {
@@ -969,7 +970,7 @@ body.lock {
 .start {
   margin-top: 75px;
   position: relative;
-  width: 100vw;
+  width: 100%;
 }
 .start__bg {
   position: absolute;
@@ -1025,7 +1026,7 @@ body.lock {
 }
 
 .contacts {
-  width: 100vw;
+  width: 100%;
   margin-top: calc(25px + 75 * (100vw - 550px) / 650);
   padding-bottom: calc(35px + 35 * (100vw - 550px) / 650);
 }
@@ -1124,7 +1125,7 @@ body.lock {
 }
 
 .footer {
-  width: 100vw;
+  width: 100%;
   padding: calc(30px + 30 * (100vw - 550px) / 650) 10px;
   background-color: #cd0a2d;
 }
