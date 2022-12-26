@@ -1,5 +1,7 @@
+@import 'adaptive';
 @import url(../css/NullStyle.css);
 @import url(../css/fonts.css);
+
 
 $red:#cd0a2d;
 
@@ -20,8 +22,9 @@ body.lock{
    position: absolute;
    top: 0;
    left: 0;
+   width: 100%;
 		&__container {
-         width: 100vw;
+         width: 100%;
          display: flex;
          justify-content: space-between;
          align-items: center;
@@ -374,7 +377,7 @@ body.lock{
 }
 .wide {
    margin-top: calc(5px + 20*((100vw - 550px)/(1200 - 550)));
-   width: 100vw;
+   width: 100%;
    position: relative;
    top:calc(35px + (-60 + 35)*((100vw - 550px)/(1200 - 550)));
    &__colums {
@@ -591,7 +594,7 @@ body.lock{
    }
 }
 .world {
-   width: 100vw;
+   width: 100%;
    margin-top: 60px;
    &__textblock {
       text-align: center;
@@ -715,7 +718,7 @@ body.lock{
 
 
 .guided {
-   width: 100vw;
+   width: 100%;
    position: relative;
    //overflow-x: hidden;
    &__bg{
@@ -895,7 +898,7 @@ body.lock{
    }
 }
 .blog {
-   width: 100vw;
+   width: 100%;
    margin-top: calc(25px + (60 - 25)*((100vw - 700px)/(1200 - 700)));
    &__textblock {
       text-align: center;
@@ -998,7 +1001,7 @@ body.lock{
 .start {
    margin-top: 75px;
    position: relative;
-   width: 100vw;
+   width: 100%;
    &__bg {
       position: absolute;
       top: 0;left: 0;
@@ -1049,7 +1052,7 @@ body.lock{
 }
 
 .contacts {
-   width: 100vw;
+   width: 100%;
    margin-top: calc(25px + (100 - 25)*((100vw - 550px)/(1200 - 550)));
    padding-bottom: calc(35px + (70 - 35)*((100vw - 550px)/(1200 - 550)));
    &__content {
@@ -1148,7 +1151,7 @@ body.lock{
 }
 
 .footer {
-   width: 100vw;
+   width: 100%;
    padding: calc(30px + (60 - 30)*((100vw - 550px)/(1200 - 550))) 10px;
    background-color: $red;
    &__container{
